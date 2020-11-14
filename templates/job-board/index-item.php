@@ -41,7 +41,7 @@
                 <?php if($job->doScheme("job_title")): else: ?>
                 <a href="<?php echo wpjb_link_to("job", $job) ?>" class="wpjb-job_title wpjb-title"><?php echo esc_html($job->job_title) ?></a>
                 <?php endif; ?>
-                
+
                 <?php if($job->isNew()): ?>
                 <span class="wpjb-bulb"><?php _e("new", "wpjobboard") ?></span>
                 <?php endif; ?>
