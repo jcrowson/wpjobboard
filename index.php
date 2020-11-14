@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: WPJobBoard
+Plugin Name: WPJobBoard (Upmostly Fork)
 Plugin URI: http://wpjobboard.net/
-Description: Probably the most advanced yet user friendly job board plugin. The plugin allows to publish jobs, manage user resumes and applications. On activation it will create two Pages: "Jobs" and "Resumes", you might also want to add "Job Board Menu" and "Resumes Menu" widgets to the sidebar as they have all the navigation links. 
-Author: Grzegorz Winiarski
+Description: Upmostly's forked version
+Author: James King
 Version: 5.6.5
 Author URI: http://wpjobboard.net
 */
