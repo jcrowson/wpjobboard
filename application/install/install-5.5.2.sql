@@ -1,0 +1,1 @@
+ALTER TABLE `{$wpdb->prefix}wpjb_mail` CHANGE `name` `name` VARCHAR(120) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;

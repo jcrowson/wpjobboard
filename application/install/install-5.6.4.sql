@@ -1,0 +1,1 @@
+ALTER TABLE `{$wpdb->prefix}wpjb_job` ADD `job_address` VARCHAR(255) NOT NULL AFTER `job_city`;
