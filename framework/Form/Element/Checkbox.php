@@ -130,7 +130,7 @@ class Daq_Form_Element_Checkbox extends Daq_Form_Element_Multi
 
         }
         
-//        return "<ul class=\"wpjb-options-list\">" . join("", $html) . "</ul>";
+        return "<ul class=\"wpjb-options-list\">" . join("", $html) . "</ul>";
     }
     
     /**
