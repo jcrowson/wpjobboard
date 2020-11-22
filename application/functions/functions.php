@@ -834,7 +834,7 @@ function wpjb_form_helper_listing(Daq_Form_Element $field, $form)
                     <span class="wpjb-glyphs wpjb-icon-clock"></span>
                     <?php $visible = (int)$l->meta->visible->value(); ?>
                     <?php if($visible > 0): ?>
-                        <?php printf( _n("Visible 1 day", "Visible %d days", $visible, "wpjobboard"), $visible) ?>
+                        Visible forever
                     <?php else: ?>
                         <?php _e("Never Expires", "wpjobboard"); ?>
                     <?php endif; ?>
